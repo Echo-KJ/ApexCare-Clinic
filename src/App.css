@@ -1,0 +1,12 @@
+/* In App.css */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* This helps keep the footer at the bottom */
+  text-align: left; /* Reset text alignment so it's not all centered */
+}
+
+/* Delete the old #root styles that had max-width: 1280px */
